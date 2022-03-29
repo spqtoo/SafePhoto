@@ -1,0 +1,36 @@
+PODS:
+  - PryntTrimmerView (4.0.2)
+  - R.swift (5.4.0):
+    - R.swift.Library (~> 5.3.0)
+  - R.swift.Library (5.3.0)
+  - SteviaLayout (4.7.3)
+  - Swinject (2.8.1)
+  - YPImagePicker (5.0.0):
+    - PryntTrimmerView (= 4.0.2)
+    - SteviaLayout (= 4.7.3)
+
+DEPENDENCIES:
+  - R.swift
+  - Swinject
+  - YPImagePicker
+
+SPEC REPOS:
+  trunk:
+    - PryntTrimmerView
+    - R.swift
+    - R.swift.Library
+    - SteviaLayout
+    - Swinject
+    - YPImagePicker
+
+SPEC CHECKSUMS:
+  PryntTrimmerView: 6a43cc90df5d99addeabd33d4ba09b1365322130
+  R.swift: c533450b0f7dc494e0993f5f1a1db925d84c3006
+  R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  Swinject: 97112918bd7e0785dc2df7036213f3c8cbba6586
+  YPImagePicker: 1463a19a36244e209dcb03c30e63559c5afa9602
+
+PODFILE CHECKSUM: 8814afce0a0ec2544fa37b2ddab88fcb483a1d4d
+
+COCOAPODS: 1.11.2

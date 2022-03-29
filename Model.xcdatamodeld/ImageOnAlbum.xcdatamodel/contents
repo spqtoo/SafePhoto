@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="20G95" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AlbumEntity" representedClassName="AlbumEntity" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="lastUpdate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="nameOfAlbum" attributeType="String"/>
+        <relationship name="images" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="ImageEntity" inverseName="album" inverseEntity="ImageEntity"/>
+    </entity>
+    <entity name="ImageEntity" representedClassName="ImageEntity" syncable="YES">
+        <attribute name="createDate" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fullSize" attributeType="Binary"/>
+        <attribute name="lowSize" attributeType="Binary"/>
+        <relationship name="album" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AlbumEntity" inverseName="images" inverseEntity="AlbumEntity"/>
+    </entity>
+    <elements>
+        <element name="AlbumEntity" positionX="-249.05859375" positionY="-65.7109375" width="128" height="103"/>
+        <element name="ImageEntity" positionX="-63" positionY="0" width="128" height="103"/>
+    </elements>
+</model>

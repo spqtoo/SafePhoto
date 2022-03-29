@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  Safe Photo
+
+  Created by Nikolay Chepizhenko on 21.11.2021.
+  
+*/
+"albumsTitle" = "Albums";
+"addAlbumTitle" = "Add new album";
+"addAlbumTextPlaceholder" = "Enter album name...";
+"addAlbumCreateButtonTitle" = "Create";
+
+"albumViewerCountLabel" = "Publications: %@";
+"albumViewerLastUpdate" = "Last update: %@";
+"editAlbum" = "Edit album";
+"addPhotos" = "Add photos";
+"deleteAlbum" = "Delete album";
+"changeAlbumPhoto" = "Change album photo";
+"albumViewerAreYouSure" = "Are you sure you want to delete the album %@?";
+"albumViewerDeleteAlbumDescription" = "This will permanently delete all content in the album";
+
+"cancel" = "Cancel";
+"select" = "Select";
+"delete" = "Delete";
+"yes" = "Yes";
+
+// SettingsVC
+"settingsTitle" = "Settings";
+"settingsCellSecurity" = "Security";
+"settingsCellPassword" = "Password";
+"settingsCellChangePassword" = "Change Password";
+"settingsCellTouchID" = "Touch ID";
+"settingsCellFaceID" = "Face ID";
+"settingsCellGeneral" = "General";
+"settingsCellLanguage" = "Language";
+"settingsCellFeedback" = "Feedback";
+"settingsCellVersion" = "Version";
+
+
+
+// Local auth
+"localAuthEnterPin" = "Enter pin code";
+"localAuthDontRemember" = "Don't remember the pin code?";
+
